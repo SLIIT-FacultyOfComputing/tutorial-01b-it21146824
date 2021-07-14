@@ -13,6 +13,19 @@ sum = 1+2+3+...+10 = 55 */
 
 #include <stdio.h>
 int main() {
+  //variables
+  int n  , tot=0;
+
+  //input the input from the keyboad
+  printf("enter the number you want to stop : ");
+  scanf("%d" , &n);
+
+  for(int i=1 ; i<=n ; i++)
+  {
+    tot = tot + i; //Repetition
+    
+  }
+  printf("%d" , tot); //output
   
   return 0;
 }
